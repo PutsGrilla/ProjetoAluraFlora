@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8" />
+    <title>FloraBR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Flora do Brasil</h1>
+    </header>
+    <main>
+        <section class="search-section">
+            <input type="text" placeholder="Digite o nome da planta">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa"
+        id="resultados-pesquisa"
+        style="overflow-y: auto;">
+ 
+            <div class="item-resultado">
+                <h2>
+                    <a href="https://pt.wikipedia.org/wiki/Ipê-amarelo-flor-de-algodão" target="_blank">O Ipê Amarelo: Uma Árvore Mágica!</a>
+                </h2>
+                <p class="descricao-meta">Você já viu uma árvore toda amarela? O ipê amarelo é assim! Quando chega a primavera, ele fica coberto de flores lindas e brilhantes, como se estivesse usando um vestido dourado. É como se a natureza fizesse uma festa só para nós! As flores do ipê atraem muitos animais, como abelhas e borboletas, que adoram o seu néctar doce. E sabia que a madeira do ipê é muito forte e resistente? Por isso, ele é uma árvore muito especial e importante para o nosso país!</p>
+            </div>
+            <div class="item-resultado">
+                <h2>
+                    <a href="https://lpf.florestal.gov.br/index.php?option=com_madeirasbrasileiras&view=especieestudada&especieestudadaid=62" target="_blank" title="Saiba mais sobre a Sumaúma">
+                        A Gigante da Floresta: A Sumaúma!
+                    </a>
+                </h2>
+                <p class="descricao-meta">
+                    A Sumaúma é uma árvore gigante da Amazônia! Ela é tão alta que parece tocar o céu! Suas raízes são enormes e ajudam a segurar a árvore firme no chão. A Sumaúma dá frutos grandes com uma espécie de algodão por dentro, que serve de casa para muitos animais. Ela é como uma mãe para a floresta, protegendo e alimentando muitos bichinhos!
+                </p>
+            </div>
+            <div class="item-resultado">
+                <h2>
+                    
+                    <a href="https://pt.wikipedia.org/wiki/Paineira" target="_blank" title="Saiba mais sobre a Sumaúma">
+                        A Paineira: Um abraço verde!
+                    </a></h2>
+                <p class="descricao-meta">
+                  A Paineira é uma árvore muito especial! Ela é grandona e forte, com um tronco todo cheio de espinhos, mas é bem macia por dentro. Quando chega a primavera, a Paineira fica linda, cheia de flores rosinhas ou brancas. Depois dessas flores lindas, nascem frutos bem grandes com uma espécie de algodãozinho por dentro. As crianças adoram brincar com esse algodão, fazendo bolas e almofadas bem macias. A Paineira é como uma amiga gigante que gosta de abraçar todo mundo!
+                </p>
+              </div>
+                  </section>
+    </main>
+    <footer>
+        <p>2024 - Flora do Brasil. Todos os direitos reservados</p>
+        <p>Entre em contato: flora@brasil.com.br</p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
