@@ -1,4 +1,4 @@
-## Pesquisa da flora brasilera por crianças ##
+## Pesquisa da flora brasilera por crianças - Imersão Dev com Google Gemini##
 
 **O que essa aplicação faz?** 
 
